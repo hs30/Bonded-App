@@ -31,11 +31,7 @@
               <div class="user-index-indiv-card">
               <div class="user-index-indiv-card-top">
                 <div class="user-index-indiv-card-avatar">
-                  <%# <% if user.photo.attached?  %>
-                    <%# <%= cl_image_tag user.photo.key, height: 300, width: 400, crop: :fill, class:"avatar-large" %>
-                  <%# <% else  %>
-                  <%= image_tag user.avatar_url, class:"avatar-large" %>
-                  <%# <% end %>
+                  <%= image_tag(user.avatar_url, class: "avatar-large") %>
                 </div>
                 <div class="user-index-indiv-card-profile">
                 <div class="my-profile">
