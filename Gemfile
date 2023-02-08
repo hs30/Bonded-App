@@ -29,6 +29,8 @@ gem "jbuilder"
 
 gem "geocoder"
 
+gem 'rails_12factor', group: :production
+
 # Use Redis adapter to run Action Cable in production
 gem "redis", "~> 4.0"
 
