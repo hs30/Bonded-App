@@ -31,7 +31,7 @@ puts "creating users..."
 
 user1 = User.create!(first_name: "Gemma", last_name: "Smith", nickname: "Gem", gender: "Female", age: 30, location: "London", email: "gemma@smith.com", password: "123456",
   about: " Just moved to London from Hong Kong for work. I work in the city and live near Islington. I love a stroll, a beach, rock music, good food and movies. Keen to meet more like-minded individuals and find a cool local community.",
-  avatar_url: "https://cdn2.stylecraze.com/wp-content/uploads/2013/11/Beautiful-Chinese-Women5")
+  avatar_url: "https://cdn2.stylecraze.com/wp-content/uploads/2013/11/Beautiful-Chinese-Women5.jpg")
 user2 = User.create!(first_name: "Jenny", last_name: "Johnson", nickname: "Jen", gender: "Female", age: age.sample, location: uk_cities.sample, email: "jen@johnson.com", password: "123456",
   about: "I've been working in the creative industry for some time, I have developed a strong interest in art and music. Looking to find some cool friends to checkout new art exhibitions and cool gigs in town. I'm also very passionate about empowering women and would like to find other wonder-women to change the world together. ",
   avatar_url: "https://i.pinimg.com/474x/98/0a/75/980a758e6596aec603f9d631716a2ad7--women-hair-styles-ferris-bueller.jpg")
